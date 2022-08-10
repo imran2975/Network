@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width = device-width initial-scale = 1.0">
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>Service Provider</title>
+        <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap" rel="stylesheet">
+        
+    </head>
+    <body>
+        <header>
+            <h3>Imran_tech Network Provider</h3>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li id="serv"><a href="#" id="current-page">Service</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main>
+            <p>Discover your Network Provider</p>
+            <form >
+                <input type="text" name="name" id="name" value="" placeholder="Enter your name"/>
+                <input type="number" name="phone" id="phone" value="" placeholder="Enter your Phone Number ☎️"/>
+            
+                <button type="button" id="search-btn" onclick="mtn(); airtel(); glo(); nineMobile()">Check</button>
+                <button id="clear-btn" type="reset" >Clear</button>
+            </form>
+            
+            <div id="mssg"></div>
+            
+        </main>
+
+        <script src="main.js"></script>
+    </body>
+</html>
