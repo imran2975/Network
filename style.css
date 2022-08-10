@@ -83,7 +83,7 @@ input{
     font-weight: bold;
     border: 3px solid #2B4865;
     background: #256D85;
-    color: #2B4865;
+    color: #fff;
     outline: none;
 }
 
@@ -124,7 +124,7 @@ p>span{
 }
 
 h1{
-    font-family: cursive;
+    font-family: 'Oleo Script Swash Caps', cursive;
 }
 
 #body-home{
